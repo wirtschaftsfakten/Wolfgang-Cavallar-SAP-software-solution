@@ -57,7 +57,7 @@ ul, ol { padding: 0; list-style: none; }
 ::selection { background: var(--yellow); color: var(--ink); }
 a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
 :focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
-.band-graphite :focus-visible, .band-graphite-2 :focus-visible, .band-slate :focus-visible, .ticker :focus-visible, .footer :focus-visible { outline-color: var(--yellow); }
+.band-graphite :focus-visible, .band-graphite-2 :focus-visible, .band-slate :focus-visible, .footer :focus-visible { outline-color: var(--yellow); }
 
 .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
 
@@ -119,26 +119,6 @@ a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px
   @keyframes crest-in { from { opacity: 0; transform: scale(.85) rotate(-4deg); } }
   @keyframes rise { from { opacity: 0; transform: translateY(18px); } }
   @keyframes unveil { from { clip-path: inset(100% 0 0 0); } to { clip-path: inset(0 0 0 0); } }
-}
-
-/* Laufband mit Wappen als Trenner */
-.ticker { background: var(--ink); color: var(--yellow); overflow: hidden; border-block: 1px solid #000; }
-.ticker-track { display: flex; width: max-content; }
-.ticker-list { display: flex; flex-shrink: 0; align-items: center; }
-.ticker-list li { display: flex; align-items: center; white-space: nowrap; font: 500 clamp(1.0625rem, 1.6vw, 1.3125rem)/1 var(--display); padding: 1.125rem 0; }
-.ticker-list li::after {
-  content: ""; width: 1.625rem; height: 1.625rem; margin: 0 1.75rem;
-  background: url("img/wappen-160.webp") center / contain no-repeat;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .ticker-track { animation: ticker 48s linear infinite; }
-  .ticker:hover .ticker-track { animation-play-state: paused; }
-  @keyframes ticker { to { transform: translateX(-50%); } }
-}
-@media (prefers-reduced-motion: reduce) {
-  .ticker-track { width: auto; }
-  .ticker-list { flex-wrap: wrap; flex-shrink: 1; padding: 0 var(--gutter); }
-  .ticker-list[aria-hidden] { display: none; }
 }
 
 /* Aufdecken beim Scrollen, nur mit JS und ohne reduzierte Bewegung */
