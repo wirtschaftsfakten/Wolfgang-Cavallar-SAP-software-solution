@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wolfgang Cavallar – SAP Solution Architect</title>
-  <meta name="description" content="Wolfgang Cavallar, Dipl.-Inf. (FH), SAP Solution Architect in Augsburg. Über 30 Jahre Erfahrung von R/3 bis S/4HANA: ABAP OO, Fiori, RAP, Schnittstellen, Migrationen in FI, CO, SD, MM und PP.">
+  <meta name="description" content="Wolfgang Cavallar, Dipl.-Inf. (FH), SAP Solution Architect in Augsburg. SAP-Entwicklung seit 1995, von R/3 bis S/4HANA: ABAP OO, Schnittstellen, Migrationen in FI, CO, SD, MM und PP.">
   <meta name="theme-color" content="#FDB900">
   <link rel="icon" type="image/png" href="assets/img/favicon-64.png">
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
@@ -15,9 +15,9 @@
 <body>
   <a class="skip" href="#inhalt">Zum Inhalt springen</a>
 
-  <header class="hero">
+  <header class="topbar">
     <div class="wrap bar">
-      <a class="brand" href="#top" aria-label="Wolfgang Cavallar, zur Startseite">
+      <a class="brand" href="#top" aria-label="Wolfgang Cavallar, zum Seitenanfang">
         <picture>
           <source srcset="assets/img/wappen-160.webp 1x, assets/img/wappen-320.webp 2x" type="image/webp">
           <img src="assets/img/wappen-160.png" width="80" height="80" alt="Familienwappen Cavallar">
@@ -28,17 +28,20 @@
         </span>
       </a>
       <nav class="nav" aria-label="Hauptnavigation">
+        <a href="#aktuell">Aktuell</a>
         <a href="#kompetenzen">Kompetenzen</a>
-        <a href="#kunden">Kunden</a>
-        <a href="#ausbildung">Ausbildung</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#referenzen">Referenzen</a>
         <a class="btn btn-dark" href="#kontakt">Kontakt</a>
       </nav>
     </div>
+  </header>
 
-    <div class="wrap hero-body" id="top">
+  <section class="hero" id="top">
+    <div class="wrap hero-body">
       <div class="hero-copy">
         <h1>Wenn Sie wirklich verstanden werden wollen.</h1>
-        <p class="lead">Sie suchen keinen Informatiker, der nur abarbeitet, was im Pflichtenheft steht, statt die eigentliche Aufgabe zu hinterfragen. Sondern jemanden, der mit tiefem Prozessverständnis Ihre Anliegen in der Sprache des Fachbereichs versteht und sie ohne IT-Schlagworte in eine tragfähige ERP-Lösung übersetzt. Dann sind Sie bei mir richtig.</p>
+        <p class="lead">Ich bin kein typischer Informatiker, der nur Anforderungen entgegennimmt. Ich verstehe mich als Dolmetscher zwischen fachlichen Problemen und der zugrunde liegenden IT: Ich höre zu, hinterfrage die eigentliche Aufgabe und übersetze sie ohne IT-Schlagworte in eine tragfähige ERP-Lösung.</p>
         <div class="hero-actions">
           <a class="btn btn-dark btn-lg" href="#kontakt">Jetzt kontaktieren</a>
           <a class="hero-phone" href="tel:+491702347650">0170 234 765 0</a>
@@ -51,100 +54,238 @@
         </picture>
         <figcaption>
           <strong>Wolfgang Cavallar</strong>
-          <span>Dipl.-Inf. (FH)</span>
-          <span>SAP Solution Architect</span>
+          <span>Dipl.-Inf. (FH), SAP Solution Architect</span>
+          <span>Augsburg, weltweit im Einsatz</span>
         </figcaption>
       </figure>
     </div>
-  </header>
+
+    <div class="wrap facts" role="list">
+      <p role="listitem"><strong>1995</strong><span>erste SAP-Entwicklung</span></p>
+      <p role="listitem"><strong>R/3 bis S/4HANA</strong><span>Release 3.1i bis heute</span></p>
+      <p role="listitem"><strong>5 Sprachen</strong><span>Deutsch, Englisch, Portugiesisch, Spanisch, Italienisch</span></p>
+      <p role="listitem"><strong>7 Länder</strong><span>berufliche Einsätze im Ausland</span></p>
+    </div>
+  </section>
 
   <main id="inhalt">
-    <section class="span" aria-labelledby="span-title">
+    <section class="band band-graphite" id="aktuell" aria-labelledby="aktuell-title">
       <div class="wrap">
-        <h2 id="span-title" class="span-title">Über 30 Jahre SAP-Erfahrung</h2>
-        <div class="rail" aria-hidden="true">
-          <span class="rail-end">R/3</span>
-          <span class="rail-line"></span>
-          <span class="rail-end">S/4HANA</span>
+        <div class="head">
+          <h2 id="aktuell-title">Aktuelle Mandate</h2>
+          <p>Für diese Kunden arbeite ich derzeit als externer Senior-Entwickler.</p>
         </div>
-        <p class="span-text">Von R/3 bis S/4HANA: präzise, verlässlich, immer neugierig auf neue Herausforderungen.</p>
+
+        <div class="mandates">
+          <article class="mandate">
+            <p class="m-since">seit 2026</p>
+            <h3>Bayerische Staatsforsten</h3>
+            <p class="m-sector">Behörde</p>
+            <p class="m-stack">SAP S/4HANA, FI, CO</p>
+            <ul><li>Unterstützung bei der Digitalisierung der Forstbetriebe</li></ul>
+          </article>
+          <article class="mandate">
+            <p class="m-since">seit 2018</p>
+            <h3>AUDI AG &amp; AUDI Classic</h3>
+            <p class="m-sector">Automobilhersteller, Ingolstadt</p>
+            <p class="m-stack">SAP S/4HANA und R/3, ABAP OO, FI, CO, CO-PA, MM, SD</p>
+            <ul>
+              <li>Migration der AUDI-Eigenentwicklungen nach S/4HANA oder Ablösung durch Standardfunktionen</li>
+              <li>AUDI Classic: Backend für Webshop-Bestellungen, Streckengeschäft, Gutscheinverfahren</li>
+            </ul>
+          </article>
+          <article class="mandate">
+            <p class="m-since">seit 2025</p>
+            <h3>Thalia Bücher GmbH</h3>
+            <p class="m-sector">Handel, Hagen</p>
+            <p class="m-stack">SAP R/3, ABAP OO, FI, FI-CA</p>
+            <ul><li>Unterstützung bei der S/4-Migration und Neuentwicklungen im Retail- und FI-CA-Umfeld</li></ul>
+          </article>
+          <article class="mandate">
+            <p class="m-since">seit 2024</p>
+            <h3>BESSEY GmbH</h3>
+            <p class="m-sector">Spann- und Schneidwerkzeuge, Bietigheim-Bissingen</p>
+            <p class="m-stack">SAP S/4HANA, ABAP OO, FI, CO, CO-PA, MM, SD, FIN-FSCM-CR</p>
+            <ul><li>Erweiterung der Eigenentwicklung im Kreditmanagement und Neuimplementierungen in S/4</li></ul>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="kompetenzen" aria-labelledby="komp-title">
+    <section class="band band-yellow" id="kompetenzen" aria-labelledby="komp-title">
       <div class="wrap">
-        <h2 id="komp-title" class="section-title">Kernkompetenzen</h2>
+        <div class="head">
+          <h2 id="komp-title">Kernkompetenzen</h2>
+          <p>ABAP OO in allen Releases von 3.1i bis S/4HANA, in diesen Modulen:</p>
+        </div>
 
         <div class="modules" role="list" aria-label="SAP-Module">
-          <span role="listitem" title="Finanzwesen">FI</span>
-          <span role="listitem" title="Controlling">CO</span>
-          <span role="listitem" title="Vertrieb">SD</span>
-          <span role="listitem" title="Materialwirtschaft">MM</span>
-          <span role="listitem" title="Produktionsplanung">PP</span>
+          <p role="listitem"><strong>FI</strong><span>Finanzwesen</span></p>
+          <p role="listitem"><strong>CO</strong><span>Controlling</span></p>
+          <p role="listitem"><strong>SD</strong><span>Vertrieb</span></p>
+          <p role="listitem"><strong>MM</strong><span>Materialwirtschaft</span></p>
+          <p role="listitem"><strong>PP</strong><span>Produktion</span></p>
         </div>
 
-        <div class="rows">
-          <div class="row">
+        <div class="skills">
+          <div>
             <h3>Entwicklung</h3>
-            <ul>
-              <li>ABAP OO, Release 3.1i bis S/4HANA</li>
-              <li>Full Stack Development, Schnittstellen, Migrationen</li>
-              <li>Enhancement Framework, Fiori, RAP, ALE</li>
-              <li>VBA</li>
+            <p>Reports, Dialoge, User-Exits, Migrationen und Performance-Optimierung. Full-Stack bis Fiori und RAP.</p>
+          </div>
+          <div>
+            <h3>Schnittstellen</h3>
+            <ul class="tags">
+              <li>ALE</li><li>IDoc</li><li>BAPI</li><li>BAdI</li><li>BTE</li><li>RFC</li>
+              <li>Enhancement Framework</li><li>Validierung</li><li>Substitution</li><li>Merkmalsableitung</li>
             </ul>
           </div>
-          <div class="row">
-            <h3>Arbeitsweise</h3>
-            <ul>
-              <li>Ausgezeichnete Kommunikations- und Analysefähigkeit</li>
-              <li>Vermittler zwischen Fachbereich und Technik</li>
-              <li>Breite Branchenkenntnis: Industrie, Automotive, Banken, Versicherungen, Handel</li>
-            </ul>
+          <div>
+            <h3>MS Office und SAP</h3>
+            <p>Excel-Werkzeuge mit VBA und RFC direkt am SAP-System, zum Beispiel FI-Buchungen per Upload mit mehr als 1.000 Zeilen.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-light" id="kunden" aria-labelledby="kunden-title">
-      <div class="wrap">
-        <h2 id="kunden-title" class="section-title">Ausgewählte Kunden</h2>
-        <p class="section-intro">Aktuell und historisch.</p>
+    <section class="band band-slate" id="werdegang" aria-labelledby="werdegang-title">
+      <div class="wrap split">
+        <div class="head">
+          <h2 id="werdegang-title">Werdegang</h2>
+          <p>IT-Erfahrung seit 1993, SAP-Entwicklung seit 1995.</p>
+        </div>
+        <ol class="timeline">
+          <li><span class="t-year">seit 2025</span><span class="t-what">Selbständiger SAP-Entwickler</span></li>
+          <li><span class="t-year">2018 bis 2024</span><span class="t-what">Geschäftsführer der CAVALLAR UG &amp; Co. KG</span></li>
+          <li><span class="t-year">2002 bis 2017</span><span class="t-what">Selbständiger SAP-Entwickler</span></li>
+          <li><span class="t-year">2000</span><span class="t-what">Zertifizierter SAP Solution Consultant</span></li>
+          <li><span class="t-year">1998 bis 2001</span><span class="t-what">Angestellter bei einer SAP-Beratungsgesellschaft</span></li>
+          <li><span class="t-year">1995 bis 1998</span><span class="t-what">Werkstudent bei Siemens Nixdorf, erste SAP-Entwicklungen</span></li>
+          <li><span class="t-year">1993 bis 1999</span><span class="t-what">Studium der Informatik, Diplom-Informatiker (FH) mit Schwerpunkt Wirtschaft</span></li>
+        </ol>
+      </div>
+    </section>
 
-        <div class="feature-client">
-          <p class="fc-name">BSH Bosch Siemens Hausgeräte</p>
-          <p class="fc-note">Über 25 Jahre Zusammenarbeit</p>
+    <section class="band band-graphite" id="projekte" aria-labelledby="projekte-title">
+      <div class="wrap">
+        <div class="head">
+          <h2 id="projekte-title">Ausgewählte Projekte</h2>
+          <p>Ein Auszug aus drei Jahrzehnten. Zum Aufklappen antippen.</p>
         </div>
 
-        <ul class="clients">
-          <li><span>AUDI AG &amp; AUDI Classic</span><small>Automotive</small></li>
-          <li><span>Knorr-Bremse</span><small>Industrie</small></li>
-          <li><span>Thalia Bücher GmbH</span><small>Handel</small></li>
-          <li><span>ALTANA AG</span><small>Spezialchemie</small></li>
-          <li><span>BESSEY GmbH</span><small>Industrie</small></li>
-          <li><span>Erhardt + Leimer</span><small>Automatisierungstechnik</small></li>
-          <li><span>Helvetia</span><small>Versicherung</small></li>
-          <li><span>Swiss Re</span><small>Banken</small></li>
+        <div class="projects">
+          <details>
+            <summary><span class="p-client">BSH Hausgeräte</span><span class="p-title">Weltweite Verrechnung von Logistikkosten</span><span class="p-years">2003 bis 2025</span></summary>
+            <ul>
+              <li>Konzept und Entwicklung in FI, CO und SD: Fracht-, Service- und Lagerkosten verursachergerecht auf Basis von Lieferungen und Lagerbestand umlegen</li>
+              <li>Preisfindungslogik, Sonderkonditionen, CO-PA-Belege und Überwachungsmonitor</li>
+              <li>Im Einsatz in Deutschland, Frankreich, Polen, Spanien, Portugal, der Türkei und weiteren Ländern</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">AUDI AG</span><span class="p-title">Eigenentwicklungen nach S/4HANA überführen</span><span class="p-years">seit 2018</span></summary>
+            <ul>
+              <li>Prozessanalyse jeder Eigenentwicklung: nach S/4HANA überführen oder durch Standard ablösen</li>
+              <li>Schnittstelle zum Buchen von Herstellkosten in FI, Buchungsapplikation für die Kostenträgerkonsolidierung</li>
+              <li>OCI-Katalog im Bestellprozess, Korrespondenzsteuerung im Business Partner</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">Helvetia Versicherungen</span><span class="p-title">Financial Closing Cockpit</span><span class="p-years">2007 bis 2011</span></summary>
+            <ul>
+              <li>Eigenes Closing Cockpit für die Schweiz, Spanien, Österreich und Frankreich in einer verteilten Systemlandschaft</li>
+              <li>FI-Add-on, das Aufwandszeilen zur Laufzeit auf Segmente verteilt, ohne Systemmodifikation</li>
+              <li>Kalkulation und Buchung latenter Steuern in der Schweiz</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">Knorr-Bremse</span><span class="p-title">New GL und IFRS-Umstellung</span><span class="p-years">2019 bis 2022</span></summary>
+            <ul>
+              <li>Werkzeuge für Abgrenzungsbuchungen (IFRS Adjustment Tool)</li>
+              <li>Im Auftrag von Ernst &amp; Young</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">Drei Großkonzerne</span><span class="p-title">Euro-Umstellung in SAP R/3</span><span class="p-years">1998 bis 2001</span></summary>
+            <ul>
+              <li>Planung und Koordination der Umstellung aller europäischen Systeme</li>
+              <li>Customizing für Doppelwährungsphase und auslaufende Währungen, viele Sonderprogramme</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">Papelera de Canarias</span><span class="p-title">SAP-Einführung auf Teneriffa</span><span class="p-years">2003</span></summary>
+            <ul>
+              <li>Einführung von SAP R/3 bei einem Wellpappenwerk in Santa Cruz</li>
+              <li>Anwender in Büro und Fabrik betreut und auf Spanisch geschult, Go-live im Vertrieb begleitet</li>
+            </ul>
+          </details>
+          <details>
+            <summary><span class="p-client">BSH Werk Traunreut</span><span class="p-title">Hochregallager an SAP WM angebunden</span><span class="p-years">2004</span></summary>
+            <ul>
+              <li>Kommunikation zwischen Lagersteuerung und SAP Warehouse Management über RFC</li>
+              <li>Notfallkonzepte für Deadlocks beim Ein- und Auslagern, lückenloses Protokoll aller Bewegungen</li>
+            </ul>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="band band-mist" id="referenzen" aria-labelledby="ref-title">
+      <div class="wrap">
+        <div class="head">
+          <h2 id="ref-title">Referenzen</h2>
+          <p>Industrie, Banken, Versicherungen, Handel und Behörden.</p>
+        </div>
+
+        <ul class="refs">
+          <li><span>BSH Bosch Siemens Hausgeräte</span><small>Hausgeräte, 1999 bis 2025</small></li>
+          <li><span>Fujitsu Technology Solutions</span><small>ehemals Siemens Nixdorf, 1995 bis 2017</small></li>
+          <li><span>ALTANA AG</span><small>Spezialchemie, seit 2025</small></li>
+          <li><span>Erhardt + Leimer</span><small>Automatisierungstechnik, 2021 bis 2025</small></li>
+          <li><span>MT Aerospace</span><small>Luft- und Raumfahrt, 2019 bis 2023</small></li>
+          <li><span>Knorr-Bremse</span><small>Bremssysteme, 2019 bis 2022</small></li>
+          <li><span>Capri Sun</span><small>Getränke, 2020 bis 2021</small></li>
+          <li><span>HRV Hamburg</span><small>Finanzdienstleistung, 2019 bis 2020</small></li>
+          <li><span>REMA TIP TOP</span><small>Industrie, 2018 bis 2019</small></li>
+          <li><span>Schaeffler</span><small>Automobilzulieferer, 2015 bis 2019</small></li>
+          <li><span>Aareon</span><small>Immobilienwirtschaft, 2018</small></li>
+          <li><span>Hitachi Automotive Systems</span><small>Automobilzulieferer, 2017 bis 2018</small></li>
+          <li><span>Döhler</span><small>Lebensmittel, 2017</small></li>
+          <li><span>BWI</span><small>Bundeswehr-IT, 2017</small></li>
+          <li><span>Swiss Re</span><small>Rückversicherung, 2012</small></li>
+          <li><span>Helvetia Versicherungen</span><small>Versicherung, 2007 bis 2011</small></li>
+          <li><span>Bosch Sicherheitssysteme</span><small>Industrie, 2010</small></li>
+          <li><span>Dresdner Bank Schweiz</span><small>Bank, 2007 bis 2009</small></li>
+          <li><span>Klingele Papierwerke</span><small>Papier und Verpackung, 2000 bis 2004</small></li>
+          <li><span>Papelera de Canarias</span><small>Wellpappe, Teneriffa, 2003</small></li>
+          <li><span>Pfullendorfer Torsysteme</span><small>Industrie, 2001</small></li>
         </ul>
-        <p class="clients-more">Außerdem MT Aerospace, Capri Sun, Schaeffler, Dresdner Bank und viele mehr.</p>
       </div>
     </section>
 
-    <section class="section" id="ausbildung" aria-labelledby="ausb-title">
-      <div class="wrap">
-        <h2 id="ausb-title" class="section-title">Zertifizierungen und Ausbildung</h2>
-        <div class="rows">
-          <div class="row">
-            <h3>Studium</h3>
-            <ul><li>Diplom-Informatiker (FH), Schwerpunkt Wirtschaft</li></ul>
-          </div>
-          <div class="row">
-            <h3>Zertifizierung</h3>
-            <ul><li>SAP Solution Consultant (2000)</li></ul>
-          </div>
-          <div class="row">
-            <h3>Weiterbildungen</h3>
-            <ul><li>S/4HANA, SAPUI5, SD, ALE, ITS, ABAP Objects, RAP</li></ul>
-          </div>
+    <section class="band band-yellow" id="ausbildung" aria-labelledby="ausb-title">
+      <div class="wrap trio">
+        <div>
+          <h2 id="ausb-title">Ausbildung</h2>
+          <ul class="plain">
+            <li>Diplom-Informatiker (FH), Schwerpunkt Wirtschaft</li>
+            <li>Zertifizierter SAP Solution Consultant (2000)</li>
+            <li>SAP-Kurse in S/4HANA, SAPUI5, SD, ALE, ITS, ABAP Objects, RAP und BTP</li>
+            <li>Laufende Weiterbildung mit Webinaren und Fachliteratur</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Sprachen</h2>
+          <ul class="langs">
+            <li><span>Deutsch</span><small>Muttersprache</small></li>
+            <li><span>Englisch</span><small>fließend</small></li>
+            <li><span>Portugiesisch</span><small>fließend</small></li>
+            <li><span>Spanisch</span><small>gut</small></li>
+            <li><span>Italienisch</span><small>Grundkenntnisse</small></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Einsatzorte</h2>
+          <p class="countries">Portugal, Spanien, Teneriffa, Frankreich, Schweiz, Polen, Slowenien, Türkei und ganz Deutschland. Einsatzgebiet: weltweit flexibel.</p>
         </div>
       </div>
     </section>
