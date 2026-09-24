@@ -81,7 +81,7 @@ a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px
 .topbar { position: sticky; top: 0; z-index: 20; background: var(--yellow); border-bottom: 1px solid rgba(28, 30, 32, .14); }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 4.5rem; }
 .brand { display: flex; align-items: center; gap: 0.875rem; text-decoration: none; }
-.brand img { width: 3.5rem; height: 3.5rem; filter: drop-shadow(0 2px 3px rgba(60, 40, 0, .25)); }
+.brand img { width: 4.5rem; height: 4.5rem; filter: drop-shadow(0 2px 3px rgba(60, 40, 0, .25)); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
 .brand-name { font: 600 1.25rem/1.15 var(--display); }
 .brand-sub { font-size: 0.875rem; color: var(--on-yellow-muted); }
@@ -297,7 +297,7 @@ a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px
 }
 /* Handy */
 @media (max-width: 40rem) {
-  .brand img { width: 2.75rem; height: 2.75rem; }
+  .brand img { width: 3.25rem; height: 3.25rem; }
   .brand-sub { display: none; }
   .hero-body { grid-template-columns: 1fr; }
   .portrait { display: grid; grid-template-columns: 7rem 1fr; gap: 1rem; align-items: end; width: 100%; }
