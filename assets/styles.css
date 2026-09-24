@@ -33,7 +33,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 5rem; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; scroll-padding-top: 7.5rem; -webkit-text-size-adjust: 100%; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 body {
@@ -79,7 +79,7 @@ a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px
 
 /* Kopfleiste */
 .topbar { position: sticky; top: 0; z-index: 20; background: var(--yellow); border-bottom: 1px solid rgba(28, 30, 32, .14); }
-.bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 4.5rem; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 6.5rem; }
 .brand { display: flex; align-items: center; gap: 0.875rem; text-decoration: none; }
 .brand img { width: 4.5rem; height: 4.5rem; filter: drop-shadow(0 2px 3px rgba(60, 40, 0, .25)); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
@@ -297,6 +297,8 @@ a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px
 }
 /* Handy */
 @media (max-width: 40rem) {
+  html { scroll-padding-top: 5.5rem; }
+  .bar { min-height: 4.75rem; }
   .brand img { width: 3.25rem; height: 3.25rem; }
   .brand-sub { display: none; }
   .hero-body { grid-template-columns: 1fr; }
