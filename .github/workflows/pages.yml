@@ -26,7 +26,7 @@ jobs:
       - name: Collect site files
         run: |
           mkdir _site
-          cp index.html impressum.html datenschutz.html _site/
+          cp index.html impressum.html datenschutz.html robots.txt sitemap.xml _site/
           cp -r assets _site/
           if [ -f CNAME ]; then cp CNAME _site/; fi
       - uses: actions/configure-pages@v5
